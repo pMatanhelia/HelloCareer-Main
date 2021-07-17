@@ -18,7 +18,9 @@ body {
   padding: 16px 32px;
   border-radius: 20px;
   border: none;
-  margin: 20px;
+  width: 50%;
+  margin: 50px;
+  margin-top: 60px;
   color: #fff;
   font-family: "Varela";
   font-size: 16px;
@@ -38,13 +40,67 @@ span {
   float: right;
   width: 38%;
   margin-right: 0.5%;
-  top: 5%;
+    position: relative;
+  margin-top: 5%;
 }
+
+.rightcontent{
+    margin-right: 5%;
+}
+
 
 .righttext{
     text-align: center;
     float: right;
     font-size: large;
     color: white;
+    margin-right: 5%;
+    position: relative;
+line-height: 130%;
+}
 
+.righttext a{
+    color: #e05100;
+}
+
+.page2 {
+    background: #181818;
+box-shadow: 0px 0px 50px rgba(255, 46, 0, 0.51);
+    float: left;
+    position: relative;
+    margin-left: 8%;
+    margin-top:10%;
+    text-align: center;
+    color: white;
+    width: 40%;
+    font-size: 150%;
+    border: 5px solid #e05100;
+    border-radius: 1000px 1500px 00800px 500px;
+    
+}
+
+.page2 h1{
+    text-decoration-color: #e05100;
+    text-decoration-line: underline ;
+    font-size: 180%;
+    font-weight: 1000;
+}
+
+
+/* .page2 h1{
+    font-size:170%;
+}
+*/
+.page2 p{
+    font-size: 90%;
+    font-family: varela;
+    font-weight: 500;
+   
+} 
+
+.think img{
+    float: right;
+    position: relative;
+    width: 35%;
+    margin-right: 15%;
 }
